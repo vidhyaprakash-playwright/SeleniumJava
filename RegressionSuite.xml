@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test name="Regression Test cases">
+    <classes>
+      <class name="com.vqa.testannotation.BankingFlowAssertion"/>
+      <class name="com.vqa.testannotation.BankingFlowHardDependency"/>
+      <class name="com.vqa.testannotation.BankingFlowSoftDependency"/>
+      <class name="com.vqa.methodclassannotation.BeforeAndAfterMethod"/>
+      <class name="com.vqa.methodclassannotation.BeforeAndAfterClass"/>
+      
+    </classes>
+  </test> <!-- Regression Test cases -->
+</suite> <!-- Regression Suite -->
